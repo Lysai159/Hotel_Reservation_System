@@ -1,6 +1,20 @@
+# Maven build output
+target/
+
+# IDE
+.idea/
+*.iml
+/nbproject/private/
 /build/
 /dist/
-/nbproject/private/
+
+# Compiled / packaged
 *.class
 *.jar
 *.war
+*.ear
+
+# OS / env
+.DS_Store
+.env
+*.log
